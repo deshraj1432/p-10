@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
+.page1 h1{
+    font-size: 35px;
+    color: black;
+    /* color: white; */
+    /* margin-top: 50px ; */
+}
+.content{
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+   
+}
+.box1{
+    /* background-color: antiquewhite; */
+    height: 400px;
+    width: 350px;
+     margin-top: 200px;
+     text-align: center;
+     background: transparent;
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     border-radius: 10px;
+}
+.box1 h1{
+margin: 1px;
+color: black;
+}
+ h2{
+    margin: 10px;
+    font-style: italic;
+    font-size: 27px;
+}
+.box1-text{
+    height: 286px;
+    margin: 5px;
+    /* background: rgb(89, 98, 97); */
+    border-radius: 5px;
+}
+
+.box1-text p{
+    margin: 30px;
+    font-size: 20px;
+}
+.box2{
+    /* background-color: blue; */
+    height: 400px;
+    width: 350px;
+    margin-top: 200px;
+    text-align: center;
+    background: transparent;
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     border-radius: 10px;
+}
+.box3{
+    /* background-color: yellow; */
+    height: 400px;
+    width: 350px;
+    margin-top: 200px;
+    text-align: center;
+    background: transparent;
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     border-radius: 10px;
+}
+.box4{
+    /* background-color: brown; */
+    height: 400px;
+    width: 350px;
+    margin-top: 200px;
+    text-align: center;
+    background: transparent;
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+display: initial;
+font-size: small;
+}
+.box1, .box2, .box3, .box4 {
+    margin: 20px;
+    border: 2px solid black;
+
+}
+}
+@media only screen and (max-width: 800px) {
+    .content {
+        display: initial;
+
+    }
+
+}
